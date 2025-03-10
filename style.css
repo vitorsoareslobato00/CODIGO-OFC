@@ -8,7 +8,7 @@ padding: 0;
 body {
 
 height: 100vh;
-background-color: rgb(42 86, 101);
+background-color:black;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -89,35 +89,92 @@ text-align: justify;
 
 .botao1 {
 
-background-color: rgb(255, 255, 255);
-color: rgb(44, 117, 178);
-width:  500px;
-height: 80px;
-text-align: center;
-align-items: center;
-border: 2px solid;
-border-radius: 50px;
-font-size: 36px;
-padding: 15px 0;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-letter-spacing: 2px;
-text-transform: uppercase;
-position: relative;
-overflow: hidden;
-
+    background-color: #000;
+    color: #1cddff;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #33eaea;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
 }
 
 .botao1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #01d9ff);
+    transition: 0.5s;
 
-content: "";
-position: absolute;
-top: 0;
-left: -100%;
-width: 100%;
-height: 100%;
-background: linear-gradient(45 deg, transparent #95b5cb);
-transition: 0.5s;
+}
 
+.botao1:hover::before{
+    left: 100%;
+}
 
+.botao1 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+}
+
+.botao2 {
+
+    background-color: #000000;
+    color: #3017bd;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #3a42e0fc);
+    transition: 0.5s;
+
+}
+
+.botao2:hover::before{
+    left: 100%;
+}
+
+.botao2 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
 }
