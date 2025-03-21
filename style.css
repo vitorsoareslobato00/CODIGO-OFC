@@ -8,12 +8,12 @@ padding: 0;
 body {
 
 height: 100vh;
-background-color:black;
+background-color:rgb(167, 167, 167);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 margin: 0;
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 
 }
 
@@ -35,7 +35,7 @@ gap: 80px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 24px;
 font-weight: 600;
-color:antiquewhite;
+color:rgb(0, 0, 0);
 text-decoration: none;
 
 }
@@ -89,15 +89,15 @@ text-align: justify;
 
 .botao1 {
 
-    background-color: #000;
-    color: #1cddff;
+    background-color: rgb(26, 25, 25);
+    color: #ff8a1c;
     width: 500px;
     height: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #33eaea;
+    border: 2px solid #ff8a1c;
     border-radius: 50px;
     font-size: 36px;
     padding: 15px 0;
@@ -116,7 +116,7 @@ text-align: justify;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #01d9ff);
+    background: linear-gradient(45deg, transparent, #d59034);
     transition: 0.5s;
 
 }
@@ -135,7 +135,7 @@ text-align: justify;
 
 .botao2 {
 
-    background-color: #000000;
+    background-color: rgb(26, 25, 25);
     color: #3017bd;
     width: 500px;
     height: 80px;
@@ -143,7 +143,7 @@ text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #ffffff;
+    border: 2px solid #3017bd;
     border-radius: 50px;
     font-size: 36px;
     padding: 15px 0;
@@ -178,3 +178,247 @@ text-align: justify;
     transform: translate(-50%, -50%);
     font-size: 56px;
 }
+
+/* fim botao2 */
+
+/* inicio botao 3 */
+
+.botao3 {
+
+    background-color: rgb(26, 25, 25);
+    color: #515050cc;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #515050cc;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #3a3b42fc);
+    transition: 0.5s;
+
+}
+
+.botao3:hover::before{
+    left: 100%;
+}
+
+.botao3 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+}
+
+/* fim botao3 */
+
+/* inicio botao4 */
+
+
+.botao4 {
+
+    background-color: rgb(26, 25, 25);
+    color: #25d366;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #25d366;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #1ce43afc);
+    transition: 0.5s;
+
+}
+
+.botao4:hover::before{
+    left: 100%;
+}
+
+.botao4 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+}
+
+/* fim botao4 */
+
+/* inicio botao5 */
+
+
+.botao5 {
+
+    background-color: rgb(26, 25, 25);
+    color: #b61ca9;
+    width: 500px;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b61ca9;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #e03ab9fc);
+    transition: 0.5s;
+
+}
+
+.botao5:hover::before{
+    left: 100%;
+}
+
+.botao5 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+}
+ /* fim botao5 */
+
+ /* imagem */
+
+ .imagem {
+
+max-width: 100%;
+width: 650px;
+height: 650px;
+align-items: center;
+border-radius: 10px;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+transition: transform 0.3s ease-in-out;
+position: relative;
+overflow: hidden;
+order: 1;
+margin-bottom: 80px;
+
+ }
+
+ .imagem img {
+
+object-fit: cover;
+display: block;
+width: 100%;
+height: 100%;
+
+ }
+
+ .imagem::before,
+ .imagema::after {
+
+content: "";
+position: absolute;
+width: 10px;
+height: 10px;
+border: 2px solid;
+background-color: transparent;
+
+
+ }
+
+.imagem::before {
+
+    bottom: 0;
+    right: 0;
+    border-top-right-radius: 10px;
+    border-width: 2px 0 0 2px; 
+
+}
+
+ .imagem::after {
+
+bottom: 0;
+right: 0;
+border-top-right-radius: 10px;
+border-width: 0 2px 2px 0; 
+
+ }
+
+ .imagem:hover {
+
+transform: scale(1.1);
+
+
+
+ }
+
+ .rodape {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+color: aliceblue;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 18px;
+font-weight: 400;
+padding: 20px;
+
+ }
+
+ .rodape a:hover {
+color: red;
+
+
+ }
